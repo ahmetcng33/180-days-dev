@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form And Input</title>
+</head>
+<body>
+    <form action="process.php">
+        <!-- HTML5 Input -->
+        <label for="name">name</label> <br>
+        <input type="text" id="name"><br> <br>
+
+        <label for="email" >Email</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="password">Password</label> <br>
+        <input type="password"> <br><br>
+
+        <label for="tarih">Date</label><br>
+        <input type="date"><br><br>
+
+        Gender <br>
+        Male
+        <input type="radio" name="gender" value="male">
+        Female
+        <input type="radio" name="gender" value="female">
+        Other
+        <input type="radio" name="gender" value="other"><br><br>
+
+
+
+        Hobbies <br>
+        Tech
+        <input type="checkbox" name="tech" id="tech" >
+        Music
+        <input type="checkbox" name="music" id="music">
+        Art
+        <input type="checkbox" name="art" id="art"> <br><br>
+
+
+        Degree <br>
+        <select name="degree" id="degree">
+            <option value="lisans">Lisans</option>
+            <option value="yük-lisans">Yüksek Lisans</option>
+            <option value="doktora" selected>Doktora</option>
+        </select> <br><br>
+
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" resize></textarea>
+
+        <br><br>
+        <input type="reset" value="Reset">
+        <!-- <button type="submit">Submit</button> -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
