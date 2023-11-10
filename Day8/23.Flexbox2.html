@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Flexbox 2</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 75%;
+            margin: 0 auto;
+            display: flex;
+            min-height: 600px;
+            background-color: black;
+            flex-direction: row;
+            justify-content: flex-start;
+        }
+        .box{
+            text-align: center;
+            background-color: #f2f2f2;
+            width: 200px;
+            height: 100px;
+            border: 1px solid black;
+            margin: 10px;
+        }
+        .box1{
+            /* ekleme sırası order(en büyük olan en son) */
+            /* order:3; */
+            background-color: red;
+            /* toplam growdan(yatayda boş kalan alanı 6 parçaya böldük 1 tanesi kırmızı oldu) 1 tanesi kırmızı olsun  */
+            flex-grow: 1;
+        }
+        .box2{
+            background-color: blue;
+            /* bireysel align vermek */
+            /* align-self: flex-start; */
+            /* toplam growda 2 tanesi mavi olsun*/
+            flex-grow:2 ;
+        }
+        .box3{
+            background-color: green;
+            /* toplam growdan(yatayda boş kalan alanı 6 parçaya böldük 3ü yeşil oldu) 3 tanesi yesil olsun */
+            flex-grow: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+    </div>
+</body>
+</html>
