@@ -60,5 +60,9 @@
     color: #333;
     background: #fff;
     border: 0.5px solid #333;
+}
 
+.btn-block{
+    width: 100%;
+    text-align: center;
 }
