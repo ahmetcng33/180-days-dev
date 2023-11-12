@@ -78,3 +78,87 @@ html{
     background: #fff;
     border: 0.5px solid #336ea2;
 }
+
+#biyografi{
+    color: #fff;
+    padding: 1rem;
+}
+
+#biyografi .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#biyografi .items .item{
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+
+}
+
+#biyografi .items :hover{
+    color: red;
+}
+
+/* Courses */
+#courses{
+    color: #333 ;
+    padding: 1rem;
+}
+
+.courses{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.course{
+    display: flex;
+    padding: 0.25rem;
+    margin-bottom: 0.5rem;
+    /* flex-direction: row; */
+}
+
+.courses .course .course-image{
+    margin-right: 0.5rem ;
+    position: relative;
+}
+
+.courses .course .course-image img{
+    border-radius: 5px;
+}
+
+.courses .course .course-image span{
+    position: absolute;
+    padding: 0.25rem;
+    background: red;
+    color: white;
+    border-radius: 4px;
+    top: 15px;
+    left: 0;
+}
+
+.courses .course .course-info .title{
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.courses .course .course-info .discription{
+    letter-spacing: 1.2px;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}
+
+.courses .course .course-info .instructor{
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}
+
+.courses .course .course-info .rating{
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}

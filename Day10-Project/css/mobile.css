@@ -6,3 +6,15 @@
     overflow: hidden;
     height: 80px;
 }
+
+#biyografi .items{
+    flex-direction: column;
+}
+
+#biyografi .items .item{
+    width: 100%;
+}
+
+.courses .course{
+    flex-direction: column;
+}
