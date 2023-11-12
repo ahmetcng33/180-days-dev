@@ -1,0 +1,8 @@
+#navbar{
+    flex-direction: column;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    /* box sizing verdiğimiz için taşabilir overflow hidden verirsen bu taşmalar gözükmez */
+    overflow: hidden;
+    height: 80px;
+}
