@@ -66,3 +66,10 @@
     width: 100%;
     text-align: center;
 }
+
+/* Forms */
+
+.form-group{
+    padding: 0.25rem 0;
+
+}
