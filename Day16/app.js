@@ -50,6 +50,17 @@ value = Number(undefined)  //Nan olur ne sıfır ne bi sayı
 value = Number("Hi everyone") //Nan 
 value = Number(function() {console.log()})
 value = Number([1,2,3,4,5])
+value = Number("3.14")
+value = parseFloat("3.14")
+value = parseInt("3") 
+
+// Oto Çevirme
+const a = "hello" + 34 // string + number string olur
+console.log(a);
+
+let b = "34" + 53  //ikisini de string yapar
+console.log(b);
+
 
 
 
