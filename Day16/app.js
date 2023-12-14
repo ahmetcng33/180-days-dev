@@ -47,7 +47,13 @@ console.log(typeof value);
 value = Number("123")
 value = Number(null)
 value = Number(undefined)  //Nan olur ne sıfır ne bi sayı
-value = Number("Hi everyone") //Nan
+value = Number("Hi everyone") //Nan 
+value = Number(function() {console.log()})
+value = Number([1,2,3,4,5])
+
+
+
+
 console.log(value);
 console.log(typeof(value));
 
