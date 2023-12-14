@@ -23,3 +23,31 @@
 // console.log(a);
 // a = [1,2,3,4,5]
 // console.log(a);
+
+let value;
+
+// Veri Tiplerini String'e Cevirme
+
+value = 123;
+value = String(123)
+value = (123).toString()
+value = String(3.14)
+value = (3.14).toString()
+value = String(true)
+value = String(false)
+value = String(function() {console.log()})
+value = String([1,2,3,4,5])
+
+
+console.log(value);
+console.log(typeof value);
+
+// Veritiplerini Sayilara Cevirme
+
+value = Number("123")
+value = Number(null)
+value = Number(undefined)  //Nan olur ne sıfır ne bi sayı
+value = Number("Hi everyone") //Nan
+console.log(value);
+console.log(typeof(value));
+
