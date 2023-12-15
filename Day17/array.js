@@ -40,6 +40,24 @@ value = numbers
 numbers.shift()
 value = numbers
 
+// Belli bir indexten bir indexe kadar atma - Splice
+value.splice(0,1)
+value = numbers
+
+// Arrayi tam tersine çevirme - Reverse
+numbers.reverse()
+value = numbers
+
+// ilk karakterine göre sıralama
+value = numbers.sort()
+
+value = numbers.sort(function(x,y){ //Küçükten büyüge
+    return x - y
+})
+
+value = numbers.sort(function(x,y){ //Büyükten küçüğe
+    return y-x
+}) 
 
 
 
