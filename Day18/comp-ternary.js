@@ -56,7 +56,7 @@
 //     console.log("Böyle bir kullanici bulunamadi");
 // }
 
-const number = 100
+// const number = 100
 // if(number === 100){
 //     console.log("sayi 100e eşit");
 // }
@@ -66,4 +66,25 @@ const number = 100
 
 //*! Ternary Operatörs 
 
-console.log(number===100 ? "Sayi100" : "Sayi 100 Diil");
+// console.log(number===100 ? "Sayi100" : "Sayi 100 Diil");
+
+
+//*! Switch-Case
+
+const process = 2
+switch(process){
+    case 1:
+        console.log("Işlem 1")
+        break //swithc-case den çık demek 
+    case 2:
+        console.log("Işlem 2")
+        break
+    case 3:
+        console.log("Işlem 3")
+        break
+    case 4:
+        console.log("işlem 4");
+        break
+    default:
+        console.log("Yavaş la gaç tane alıyon");
+}
