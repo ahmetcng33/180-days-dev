@@ -24,3 +24,13 @@ console.log(2>=2); //true 2 2 den büyük eşit
 //*! Mantıksal Bağlaç
 
 // Not operatör
+
+console.log(2!=2); //false çünkü ünlem not anlamına gelir
+
+// And operatör - hepsi true ise true biri bile false ise false
+
+console.log(2==2) && ("ahmet" == "ahmet"); //ikiside true olduğu için true çıkar
+
+// Or operatörü - Biri bile true ise true hepsi false ise false
+
+console.log(4==2) || ("Ahmet"!= "Ahmet"); //false çünkü ikiside false
