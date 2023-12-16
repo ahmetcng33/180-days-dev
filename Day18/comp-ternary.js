@@ -71,20 +71,20 @@
 
 //*! Switch-Case
 
-const process = 2
-switch(process){
-    case 1:
-        console.log("Işlem 1")
-        break //swithc-case den çık demek 
-    case 2:
-        console.log("Işlem 2")
-        break
-    case 3:
-        console.log("Işlem 3")
-        break
-    case 4:
-        console.log("işlem 4");
-        break
-    default:
-        console.log("Yavaş la gaç tane alıyon");
-}
+// const process = 2
+// switch(process){
+//     case 1:
+//         console.log("Işlem 1")
+//         break //swithc-case den çık demek 
+//     case 2:
+//         console.log("Işlem 2")
+//         break
+//     case 3:
+//         console.log("Işlem 3")
+//         break
+//     case 4:
+//         console.log("işlem 4");
+//         break
+//     default:
+//         console.log("Yavaş la gaç tane alıyon");
+// }
