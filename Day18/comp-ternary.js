@@ -57,9 +57,13 @@
 // }
 
 const number = 100
-if(number === 100){
-    console.log("sayi 100e eşit");
-}
-else{
-    console.log("sayi 100e eşit diil");
-}
+// if(number === 100){
+//     console.log("sayi 100e eşit");
+// }
+// else{
+//     console.log("sayi 100e eşit diil");
+// }
+
+//*! Ternary Operatörs 
+
+console.log(number===100 ? "Sayi100" : "Sayi 100 Diil");
