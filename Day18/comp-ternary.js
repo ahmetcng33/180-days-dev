@@ -9,28 +9,57 @@
 // >=   büyük eşit
 // <=   küçük eşit
 
-console.log(2==2); //true
-console.log("js"==="java"); //false türleri eşit ama değeri aynı değil
+// console.log(2==2); //true
+// console.log("js"==="java"); //false türleri eşit ama değeri aynı değil
 
-console.log(2 == "2"); //true değerleri eşit
-console.log(2 === "2"); //false değeleri eşit ama türleri farklı
+// console.log(2 == "2"); //true değerleri eşit
+// console.log(2 === "2"); //false değeleri eşit ama türleri farklı
 
-console.log(4>2); //true 4 2 den büyük 
-console.log(4<2); //true 4 2 den küçük 
+// console.log(4>2); //true 4 2 den büyük 
+// console.log(4<2); //true 4 2 den küçük 
 
-console.log(2>=2); //true 2 2 den büyük eşit  
+// console.log(2>=2); //true 2 2 den büyük eşit  
 
 
 //*! Mantıksal Bağlaç
 
 // Not operatör
 
-console.log(2!=2); //false çünkü ünlem not anlamına gelir
+// console.log(2!=2); //false çünkü ünlem not anlamına gelir
 
 // And operatör - hepsi true ise true biri bile false ise false
 
-console.log(2==2) && ("ahmet" == "ahmet"); //ikiside true olduğu için true çıkar
+// console.log(2==2) && ("ahmet" == "ahmet"); //ikiside true olduğu için true çıkar
 
 // Or operatörü - Biri bile true ise true hepsi false ise false
 
-console.log(4==2) || ("Ahmet"!= "Ahmet"); //false çünkü ikiside false
+// console.log(4==2) || ("Ahmet"!= "Ahmet"); //false çünkü ikiside false
+
+//*! If Koşulları
+
+// const error = false
+// if(error == true){
+//     console.log("Hata Oluştu");
+// }else{
+//     console.log("Hata yok devam koçum");
+// }
+// console.log("deneme");
+
+// const user = "ac"
+
+// if(user === "ac"){
+//     console.log("Amedi Buldun afferim");
+// }else if(user === "amed"){
+//     console.log("farklı bi amedi buldunuz");
+// }
+// else{
+//     console.log("Böyle bir kullanici bulunamadi");
+// }
+
+const number = 100
+if(number === 100){
+    console.log("sayi 100e eşit");
+}
+else{
+    console.log("sayi 100e eşit diil");
+}
