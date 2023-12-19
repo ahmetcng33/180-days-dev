@@ -45,7 +45,7 @@
 
 //*! For
 
-const lang = ["Python", "JavaScript", "Java"]
+// const lang = ["Python", "JavaScript", "Java"]
 
 // let i = 0
 
@@ -60,8 +60,34 @@ const lang = ["Python", "JavaScript", "Java"]
 
 
 //*! For each
-lang.forEach(function (x,index){
-    console.log(x,index);
-});
+// lang.forEach(function (x,index){
+//     console.log(x,index);
+// });
 
 
+//*! Map Funciton
+
+// const user = [
+//     {name:"Ahmet", age:25},
+//     {name:"Zenep", age:40},
+//     {name:"Ali", age:35}
+// ];
+
+// const names = user.map(function(user){
+//     return user.name;
+// })
+// const ages = user.map(function(user){
+//     return user.age;
+// })
+
+// console.log(names);
+// console.log(ages);
+
+
+const user = {
+    name:"Ahmet",
+    age:"22"
+}
+for(let key in user){
+    console.log(key,user[key]);
+}
