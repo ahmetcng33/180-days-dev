@@ -81,39 +81,85 @@
 
 // Element Id'e göre seçme 
 
-let element;
+// let element;
 
-element = document.getElementById("todo-form")
-element = document.getElementById("tasks-title")
+// element = document.getElementById("todo-form")
+// element = document.getElementById("tasks-title")
 
 
 // Element Classa göre seçme 
 
-element = document.getElementsByClassName("list-group-item")[0]
-element = document.getElementsByClassName("card-header")
+// element = document.getElementsByClassName("list-group-item")[0]
+// element = document.getElementsByClassName("card-header")
 
 // Element Tag'e göre seçme
 
-element = document.getElementsByTagName("div")
+// element = document.getElementsByTagName("div")
 
 // Query Selector - Css Selector -  Tek bir Element - Ilk elementi verir
 
-element = document.querySelector("#todo-form");
-element = document.querySelector("#tasks-title");
+// element = document.querySelector("#todo-form");
+// element = document.querySelector("#tasks-title");
 
-element = document.querySelector(".list-group-item")
+// element = document.querySelector(".list-group-item")
 
-element = document.querySelector("li")
-element = document.querySelector("div")
+// element = document.querySelector("li")
+// element = document.querySelector("div")
 
 // Birden çok elementi almak için
-element = document.querySelectorAll("li")  //Node List
+// element = document.querySelectorAll("li")  //Node List
 
-element.forEach(function(el) { 
-    console.log(el);
+// element.forEach(function(el) { 
+//     console.log(el);
+    
+// });
+
+// console.log(element);
+
+// const element = document.querySelector("#clear-todos")
+
+// Element Özellikleri
+
+// console.log(element.id);
+// console.log(element.className);
+// console.log(element.classList);
+// console.log(element.classList[1]);
+// console.log(element.textContent);  //elementin içindeki yazıları verir
+// console.log(element.innerHTML); //içindeki html elementleri dahil her şeyi alır
+// console.log(element.href);
+// console.log(element.style);
+
+//! Style ve Elemenet Özelliklerini Değiştirme
+
+// element.className = "btn btn-primary"
+// element.style.color = "red"
+// element.style.marginLeft = "30px"
+// element.href = "https://www.google.com.tr"
+// element.target = "href"
+// console.log(element);
+
+// element.textContent = "Silin"
+// element.textContent = "<span>Silin</span>"
+// element.innerHTML = "<span style = 'color:green'> Silin </span>"
+
+let element2 = document.querySelector("li:last-child")
+
+elemenet2 = document.querySelector("li:nth-child(2)")
+elemenet2 = document.querySelector("li:nth-child(3)")
+elemenet2 = document.querySelector("li:nth-child(4)")
+element2 = document.querySelectorAll("li:nth-child(odd)")
+element2 = document.querySelectorAll("li:nth-child(even)")
+
+element2.forEach(el => {
+    el.style.background = "#ccc"
+    el.style.color = "red"
     
 });
+// const elements = document.querySelectorAll(".list-group-item") //Node list
+// elements.forEach(function(el){
+//     el.style.color = "red";
+//     el.style.background = "#eee"
+// })
 
-
-
-console.log(element);
+console.log(element2);
+// console.log(elements);
