@@ -45,9 +45,9 @@
 
 
 
-let value;
+// let value;
 
-value = document;
+// value = document;
 
 // Scriptler
 
@@ -68,17 +68,52 @@ value = document;
 
 // Formlar 
 
-value = document.forms;
-value = document.forms.length;
-value = document.forms[0];
-value = document.forms["form"]
-value = document.forms[0].id;  //id özelliğini öğrenme
-value = document.forms[0].name;  //name özelliğini öğrenme
+// value = document.forms;
+// value = document.forms.length;
+// value = document.forms[0];
+// value = document.forms["form"]
+// value = document.forms[0].id;  //id özelliğini öğrenme
+// value = document.forms[0].name;  //name özelliğini öğrenme
 
-value = document.forms[0].method; //Methodunu öğrenme
+// value = document.forms[0].method; //Methodunu öğrenme
+
+// console.log(value);
+
+// Element Id'e göre seçme 
+
+let element;
+
+element = document.getElementById("todo-form")
+element = document.getElementById("tasks-title")
+
+
+// Element Classa göre seçme 
+
+element = document.getElementsByClassName("list-group-item")[0]
+element = document.getElementsByClassName("card-header")
+
+// Element Tag'e göre seçme
+
+element = document.getElementsByTagName("div")
+
+// Query Selector - Css Selector -  Tek bir Element - Ilk elementi verir
+
+element = document.querySelector("#todo-form");
+element = document.querySelector("#tasks-title");
+
+element = document.querySelector(".list-group-item")
+
+element = document.querySelector("li")
+element = document.querySelector("div")
+
+// Birden çok elementi almak için
+element = document.querySelectorAll("li")  //Node List
+
+element.forEach(function(el) { 
+    console.log(el);
+    
+});
 
 
 
-
-
-console.log(value);
+console.log(element);
